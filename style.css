@@ -83,7 +83,7 @@ li {
         border-bottom: solid black 2px;
     
         margin-right: 10px;
-        font-size: 30px;
+        font-size: 25px;
         text-transform: uppercase;
     }
     .keyboard {
@@ -112,7 +112,7 @@ li {
         border-bottom: solid black 2px;
     
         margin-right: 10px;
-        font-size: 30px;
+        font-size: 25px;
         text-transform: uppercase;
     }
     .keyboard {
@@ -123,5 +123,36 @@ li {
     }
     .letter {
         margin: 5px;
+    }
+}
+@media (max-width:320px) {
+    .window_hangman {
+        margin: 30px auto;
+        width: 250px;
+        height: 250px;
+    }
+    .result {
+        margin-bottom: 30px;
+    }
+    .result ul li {
+        width: 25px;
+        height: 25px;
+        border-bottom: solid black 2px;
+    
+        margin-right: 10px;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .keyboard {
+        margin: 30px auto;
+    }
+    .letter_list {
+        font-size: 17px;
+    }
+    .letter {
+        margin: 5px;
+    }
+    .lifes_left {
+        font-size: 20px;
     }
 }

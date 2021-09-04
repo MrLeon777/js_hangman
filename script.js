@@ -56,12 +56,9 @@ keyboard.forEach(key => {
       setTimeout("alert('Победа!')", 500);
       setTimeout("document.location.reload()", 600);
     }
-    console.log(showChar(inputChar));
+    showChar(inputChar);
     document.querySelector('.lifes_left').innerHTML = `Жизней осталось: ${lifes}`
 
-    console.log(lifes)
-    console.log(result)
-    console.log(currentWord)
   })
 })
 
