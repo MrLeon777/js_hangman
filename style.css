@@ -68,3 +68,60 @@ li {
     display: none;
 }
 
+@media (max-width:480px) {
+    .window_hangman {
+        margin: 30px auto;
+        width: 300px;
+        height: 300px;
+    }
+    .result {
+        margin-bottom: 30px;
+    }
+    .result ul li {
+        width: 30px;
+        height: 30px;
+        border-bottom: solid black 2px;
+    
+        margin-right: 10px;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    .keyboard {
+        margin: 30px auto;
+    }
+    .letter_list {
+        font-size: 30px;
+    }
+    .letter {
+        margin: 5px;
+    }
+
+}
+@media (max-width:375px) {
+    .window_hangman {
+        margin: 30px auto;
+        width: 300px;
+        height: 300px;
+    }
+    .result {
+        margin-bottom: 30px;
+    }
+    .result ul li {
+        width: 30px;
+        height: 30px;
+        border-bottom: solid black 2px;
+    
+        margin-right: 10px;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    .keyboard {
+        margin: 30px auto;
+    }
+    .letter_list {
+        font-size: 22px;
+    }
+    .letter {
+        margin: 5px;
+    }
+}

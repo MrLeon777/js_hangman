@@ -43,7 +43,7 @@ keyboard.forEach(key => {
           break
         case 0:
           document.querySelector('#hangman_rleg').style.display = 'block';
-          setTimeout("alert('Gameover')", 500);
+          setTimeout("alert('Game Over')", 500);
           setTimeout("document.location.reload()", 600);
           break
       }
