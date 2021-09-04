@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <div class="lifes_left"></div>
+            <div class="window_hangman">
+                <svg viewBox='0 0 512 512'>
+                    <!-- <path d="M 27.539062,512 28.615728,18.58365 381.66088,15.909903 380.777,98.818172 360.2709,98.729784 360.44768,37.123106 135.32256,38.890873 49.585863,115.70035 48.967144,511.94531 Z"></path> -->
+                    <path d="M 27.53125,511.98437 28.625,18.59375 382.35937,14.703125 381.4375,99.25 l -21.75,0.0625 0.1875,-61.125 -309.28125,1.375 -1.184664,472.40491 z"></path>
+                    <path d="M 49.851028,115.34679 50.027805,95.547804 115.34679,39.06765 134.88062,38.979261 Z"></path>
+
+                    <path id="hangman_head" d="M 370.625 97.748047 A 58.625 58.750534 0 0 0 312 156.5 A 58.625 58.750534 0 0 0 370.625 215.25 A 58.625 58.750534 0 0 0 429.25 156.5 A 58.625 58.750534 0 0 0 370.625 97.748047 z M 371 114.39062 A 42.125 42.234314 0 0 1 413.125 156.625 A 42.125 42.234314 0 0 1 371 198.85938 A 42.125 42.234314 0 0 1 328.875 156.625 A 42.125 42.234314 0 0 1 371 114.39062 z "></path>
+                    <path id="hangman_torse" d="m 358.67991,212.79495 0.48614,148.35984 h 17.32412 l -0.13259,-147.9621 z"></path>
+                    <path id="hangman_rhand" d="m 376.49017,232.32877 115.92131,-60.54602 7.99915,15.2028 -124.00885,62.9767 z"></path>
+                    <path id="hangman_lhand" d="m 358.9375,250.8125 -116.25,-63.9375 8.125,-14.5 108,60.75 z"></path>
+                    <path id="hangman_lleg" d="m 359.16605,361.15479 -62.54105,98.28271 13.875,9.5 65.99017,-107.78271 z"></path>
+                    <path id="hangman_rleg" d="M 376.49017,361.15479 446,458.1875 l -13.3125,10 -65.75,-91.3125 -7.77145,-15.72021 z"></path>
+                </svg>
+            </div>
+            <div class="result">
+                <ul id="result">
+
+                </ul>
+            </div>
+            <!-- <input type="text" class="entry_field">
+            <button class="accept">Принять</button> -->
+
+            <div class="keyboard">
+                <ul class="letter_list">
+                    <li class="letter">й</li>
+                    <li class="letter">ц</li>
+                    <li class="letter">у</li>
+                    <li class="letter">к</li>
+                    <li class="letter">е</li>
+                    <li class="letter">н</li>
+                    <li class="letter">г</li>
+                    <li class="letter">ш</li>
+                    <li class="letter">щ</li>
+                    <li class="letter">з</li>
+                    <li class="letter">х</li>
+                    <li class="letter">ъ</li>
+
+                    <br>
+
+                    <li class="letter">ф</li>
+                    <li class="letter">ы</li>
+                    <li class="letter">в</li>
+                    <li class="letter">а</li>
+                    <li class="letter">п</li>
+                    <li class="letter">р</li>
+                    <li class="letter">о</li>
+                    <li class="letter">л</li>
+                    <li class="letter">д</li>
+                    <li class="letter">ж</li>
+                    <li class="letter">э</li>
+
+                        <br>
+
+                    <li class="letter">я</li>
+                    <li class="letter">ч</li>
+                    <li class="letter">с</li>
+                    <li class="letter">м</li>
+                    <li class="letter">и</li>
+                    <li class="letter">т</li>
+                    <li class="letter">ь</li>
+                    <li class="letter">б</li>
+                    <li class="letter">ю</li>
+                    <li class="letter">я</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

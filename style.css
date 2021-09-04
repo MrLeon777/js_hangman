@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.window_hangman {
+    margin: 50px auto;
+    width: 400px;
+    height: 400px;
+}
+.result ul li {
+    width: 50px;
+    height: 50px;
+    border-bottom: solid black 2px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.result ul {
+    display: flex;
+
+}
+.result {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.input {
+    text-align: center;
+}
+.lifes_left {
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.keyboard {
+    margin: 50px auto;
+    user-select: none;
+}
+.letter_list {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+.letter {
+    margin: 5px;
+    border-bottom: black solid 2px;
+    cursor: pointer;
+}
+
+#hangman_head, #hangman_torse, #hangman_rhand,
+#hangman_lhand, #hangman_lleg, #hangman_rleg {
+    display: none;
+}
+
