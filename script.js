@@ -46,7 +46,7 @@ keyboard.forEach(key => {
           break
         case 0:
           document.querySelector('#hangman_rleg').style.display = 'block';
-          setTimeout("alert('Game Over(Люблю тебя)')", 500);
+          setTimeout("alert('Game Over')", 500);
           setTimeout("document.location.reload()", 600);
           break
       }
@@ -56,7 +56,7 @@ keyboard.forEach(key => {
       key.style.borderColor = "lime"
     }
     if (currentWord.join('') === result.join('')) {
-      setTimeout("alert('Люблю тебя зая')", 500);
+      setTimeout("alert('Победа!')", 500);
       setTimeout("document.location.reload()", 600);
     }
     showChar(inputChar);
